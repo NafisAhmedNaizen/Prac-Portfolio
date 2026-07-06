@@ -1,0 +1,31 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-color: bisque;
+}
+nav{
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    max-width: 1000px;
+    margin: auto;
+}
+.logo{
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+.logo-r{
+    color: #FD6E0A;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 10px;
+}
+ul li a{
+    text-decoration: none;
+}
